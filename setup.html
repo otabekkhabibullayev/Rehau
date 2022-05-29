@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/Exo/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Montserrat/stylesheet.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Rehau</title>
+</head>
+
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div class="modal_wrapper">
+        <div class="modal_okno">
+            <h2>Давайте созвонимся</h2>
+            <p>Наш менеджер перезвонит в течение дня</p>
+            <label id="lbl">Номер телефона</label>
+            <input id="inp" type="text" />
+            <span>Отправляя заявку вы соглашаетесь с условиями <a href="#">политики конфиденциальности</a></span>
+            <a class="more"><i class="icon-right"></i></a>
+        </div>
+        <div class="line_v1"></div>
+        <div class="line_v2"></div>
+        <div class="line_h1"></div>
+        <div class="line_h2"></div>
+        <div class="background_col"></div>
+        <i id="x" class="icon-x"></i>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a href="#" class="header__logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <div class="header__line">
+                    <div class="header__call">
+                        <a href="#">+998 33 571 66 66</a>
+                    </div>
+                    <div class="header__recall">
+                        <a id="call" href="#">
+                            Обратный звонок
+                        </a>
+                    </div>
+                    <div class="header__lang">
+                        <ul>
+                            <li><a href="#" class="active">Рус</a></li>
+                            <li><a href="#">Uz</a></li>
+                            <li><a href="#">Eng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__menu">
+                    <a href="#" onclick="openNav()"> <i class="icon-burger"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="setup section">
+        <div class="container">
+            <div class="setup__wrapper">
+                <div class="setup__top">
+                    <div class="setup__title title">
+                        <h1>Установка современный окны в стильни домах</h1>
+                    </div>
+                </div>
+                <div class="setup-main">
+                    <div class="setup-image img">
+                        <img src="images/bannner2.jpeg" alt="">
+                        <div class="banner__btn setup-btn">
+                            <a href="#">Оставить<br>
+                                заявку</a>
+                        </div>
+                    </div>
+
+                    <div class="setup-info">
+                        <div class="inner-container">
+                            <p>Специально задуманная в конструкции здания архитектурная деталь строительства: проём в стене, служащий для поступления света в помещение и/или вентиляции. Расположение, количество и размеры окон играют важную роль в проектировании
+                                и композиции фасада здания. Окна являются главным (до 50 %) источником теплопотерь в зданиях.
+                            </p>
+                            <ul>
+                                <li><i class="icon-check"></i>Отели</li>
+                                <li><i class="icon-check"></i>Во всех провинциях</li>
+                                <li><i class="icon-check"></i>Офисы</li>
+                                <li><i class="icon-check"></i>Офисы</li>
+                                <li><i class="icon-check"></i>Жилые помещения</li>
+                                <li><i class="icon-check"></i>Жилые помещения</li>
+                                <li><i class="icon-check"></i>Обеденные центры</li>
+                                <li><i class="icon-check"></i>Во всех провинциях</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="window section">
+        <div class="inner-container">
+            <div class="window-wrapper title">
+                <h1>Какую окны выбрать на вашего дизайна дома?</h1>
+                <p>В продаже есть проводные и беспроводные системы охранной сигнализации. Беспроводное оборудование позволяет подключить охранную сигнализацию, когда ремонт уже сделан, а для системы сигнализации не заложили кабель, либо же есть сложности
+                    с прокладкой проводных линий.</p>
+                <p>По принципу работы выделяют:</p>
+                <ul>
+                    <li><span>1</span>
+                        <p>Автономные системы сигнализации, которые посылают уведомления о несанкционированном проникновении через GSM-канал на мобильный телефон в виде смс или уведомления в приложении.
+                        </p>
+                    </li>
+                    <li><span>2</span>
+                        <p>Системы охраны, которые после монтажа сдаются на пульт централизованного наблюдения (ПЦН). Сигнал тревоги поступает оператору охранной компании. На объект выезжает группа реагирования.
+                        </p>
+                    </li>
+                </ul>
+                <p>Любую современную систему сигнализации специалисты ООО «М1 ГРУП» могут настроить на автономную работу или для сдачи под охрану охранной организации на ПЦН. Но лучше заранее уточнить у охранной компании, с которой вы планируете работать,
+                    есть ли особые требования к оборудованию.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="setup-banner"></section>
+
+    <section class="subtleties section">
+        <div class="inner-container">
+            <div class="subtleties-wrapper title">
+                <h1>Тонкости установки <br> премиум окна на объекте</h1>
+                <p>У нас часто спрашивают, можно ли установить охранную сигнализацию дома или в квартире самостоятельно.
+                </p>
+                <div class="subtleties-info">
+                    <p>Система охранной сигнализации – это комплекс оборудования, который должен работать круглосуточно и бесперебойно. Монтаж требует квалификации и знаний, которых нет у большинства наших заказчиков. Например, инфракрасные извещатели не
+                        любят прямых солнечных лучей и яркого света. А новички часто устанавливают их напротив окон, прямо над дверным проемом не учитывая специфику работы датчиков.</p>
+                    <p>Наши специалисты знакомы с тонкостями работы всего оборудования. Монтаж охранной сигнализации выполняют качественно и быстро. Мы также берем на себя гарантийное и постгарантийное обслуживание оборудования. В случае сбоя приедем и устраним
+                        неполадки. В случае приобретения комплекта оборудования для самостоятельной установки, наши специалисты дадут развернутую консультацию по монтажу и наладке системы охранной сигнализации для предотвращения ошибок и сбоев в работе.
+                        Хотите купить охранную сигнализацию и узнать стоимость установки в частном доме, офисе или квартире? Звоните. Ответим на все вопросы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="free section">
+        <div class="container">
+            <div class="free__wrapper">
+                <div class="free__left">
+                    <div class="free__image img">
+                        <img src="images/free.jpg" alt="">
+                    </div>
+                    <div class="free__image__bottom">
+                        <ul>
+                            <li><i class="icon-check"></i>Жилые помещения</li>
+                            <li><i class="icon-check"></i>Жилые помещения</li>
+                            <li><i class="icon-check"></i>Обеденные центры</li>
+                            <li><i class="icon-check"></i>Во всех провинциях</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="free__right">
+                    <div class="free__info">
+                        <h3>
+                            <span>Бесплатная</span> консультация и выезд специалиста
+                        </h3>
+                        <p>Наш менеджер перезвонит в течение дня для уточнения деталей</p>
+                    </div>
+                    <div class="free__info__bottom">
+                        <a href="#">
+                            <p>Номер телефона</p>
+                            <div class="icon"> <i class="icon-right"></i></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="branch section">
+        <div class="container">
+            <div class="branch__wrapper">
+                <div class="branch__left title">
+                    <h2>Бренды с которым мы работаем</h2>
+                </div>
+                <div class="branch__right">
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/samsung.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/apple.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/artel.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/benkam.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/nbu.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/mediapark.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/ipoteka.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/kfc.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/mi.png" alt="">
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <div class="container">
+            <div class="map__wrapper">
+                <div class="map__left">
+                    <div class="map__left__info">
+                        <h5>ул. Узбекистон Овози 21</h5>
+                        <p>Ташкент, Узбекистан</p>
+                    </div>
+                    <div class="map__left__info">
+                        <h5>ул. Узбекистон Овози 21</h5>
+                        <p>Ташкент, Узбекистан</p>
+                    </div>
+                </div>
+                <div class="map__right">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="#" class="footer__logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <div class="footer__info">
+                    <p>При перепечатке любых материалов ссылка на веб-сайт обязательна</p>
+                    <p>2021. Все права защищены. </p>
+                </div>
+                <div class="footer__more">
+                    <span>000.REHAU. MCHJ</span>
+                    <small>akmal_designer</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
