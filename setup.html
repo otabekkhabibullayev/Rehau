@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="fonts/Montserrat/stylesheet.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css" />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/bootstrap-4.6.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Rehau</title>
 </head>
@@ -17,15 +17,25 @@
 <body>
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-            <a href="setup.html">Установка бронированный
-                и премиум окна</a>
-            <a href="#">Установка современный окны</a>
-            <a href="#">Установка современный окны 
-                в стильни домах</a>
-            <a href="#">Последние продукты</a>
-            <a href="#">Наш каталог</a>
-            <a href="#">Свяжется с нами</a>
+        <div class="container">
+            <div class="overlay-content">
+                <ul>
+                    <li><a href="#">Установка бронированный
+                        и премиум окна <i class="icon-right
+                        "></i></a></li>
+                    <li><a href="#">Установка современный окны<i class="icon-right
+                    "></i></a></li>
+                    <li><a href="/setup.html">Установка современный окны
+                        в стильни домах<i class="icon-right
+                        "></i></a></li>
+                    <li><a href="catalogview.html">Двухсторонний окны <i class="icon-right
+                    "></i></a></li>
+                    <li><a href="catalogview.html">Наш каталог<i class="icon-right
+                    "></i></a></li>
+                    <li><a href="#">Свяжется с нами<i class="icon-right
+                    "></i></a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="modal_wrapper">
@@ -282,8 +292,10 @@
         </div>
     </footer>
     <script src="bootstrap/js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
-    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="libs/bootstrap-4.6.1/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/Exo/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Montserrat/stylesheet.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css" />
+    <link rel="stylesheet" href="libs/bootstrap-4.6.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Rehau</title>
+</head>
+
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="container">
+            <div class="overlay-content">
+                <ul>
+                    <li><a href="#">Установка бронированный
+                            и премиум окна <i class="icon-right
+                        "></i></a></li>
+                    <li><a href="#">Установка современный окны<i class="icon-right
+                    "></i></a></li>
+                    <li><a href="/setup.html">Установка современный окны
+                            в стильни домах<i class="icon-right
+                        "></i></a></li>
+                    <li><a href="catalogview.html">Двухсторонний окны <i class="icon-right
+                    "></i></a></li>
+                    <li><a href="catalogview.html">Наш каталог<i class="icon-right
+                    "></i></a></li>
+                    <li><a href="#">Свяжется с нами<i class="icon-right
+                    "></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="modal_wrapper">
+        <div class="modal_okno">
+            <h2>Давайте созвонимся</h2>
+            <p>Наш менеджер перезвонит в течение дня</p>
+            <label id="lbl">Номер телефона</label>
+            <input id="inp" type="text" />
+            <span>Отправляя заявку вы соглашаетесь с условиями <a href="#">политики конфиденциальности</a></span>
+            <a class="more"><i class="icon-right"></i></a>
+        </div>
+        <div class="line_v1"></div>
+        <div class="line_v2"></div>
+        <div class="line_h1"></div>
+        <div class="line_h2"></div>
+        <div class="background_col"></div>
+        <i id="x" class="icon-x"></i>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a href="#" class="header__logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <div class="header__line">
+                    <div class="header__call">
+                        <a href="#">+998 33 571 66 66</a>
+                    </div>
+                    <div class="header__recall">
+                        <a id="call" href="#">
+                            Обратный звонок
+                        </a>
+                    </div>
+                    <div class="header__lang">
+                        <ul>
+                            <li><a href="#" class="active">Рус</a></li>
+                            <li><a href="#">Uz</a></li>
+                            <li><a href="#">Eng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__menu">
+                    <a href="#" onclick="openNav()"> <i class="icon-burger"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="catalogview">
+        <div class="container">
+            <div class="catalogview__wrapper">
+                <div class="catalogview__header">
+                    <div class="catalogview__text">
+                        <h3>Двухсторонний окны</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="catalogview__left">
+                                <div class="catalogview__image">
+                                    <img src="/images/catalog4.png" alt="not found">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="catalogview__right">
+                                <p>Специально задуманная в конструкции здания архитектурная деталь строительства: проём в стене, служащий для поступления света в помещение и/или вентиляции. Расположение, количество и размеры окон играют важную роль в проектировании
+                                    и композиции фасада здания. </p>
+                                <ul>
+                                    <li>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-check"></i> Отели</a></li>
+                                            <li><a href="#"><i class="icon-check"></i> Офисы</a></li>
+                                            <li><a href="#"><i class="icon-check"></i> Жилые помещения</a></li>
+                                            <li><a href="#"><i class="icon-check"></i> Обеденные центры</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-check"></i> Во всех провинциях</a></li>
+                                            <li><a href="#"><i class="icon-check"></i> Офисы</a></li>
+                                            <li><a href="#"><i class="icon-check"></i> Жилые помещения</a></li>
+                                            <li><a href="#"><i class="icon-check"></i> Обеденные центры</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <a href="#">Оставить заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogview__body">
+                    <div class="catalogview__title">
+                        <h3>Похожие товары</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="catalog__body">
+                                <div class="catalog__image">
+                                    <img src="images/catalog4.png" alt="">
+                                </div>
+                                <div class="catalog__info">
+                                    <h4>Двухсторонний окны</h4>
+                                    <ul>
+                                        <li>- по доступным ценам</li>
+                                        <li>- красивый</li>
+                                    </ul>
+                                    <a href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="catalog__body">
+                                <div class="catalog__image">
+                                    <img src="images/catalog5.png" alt="">
+                                </div>
+                                <div class="catalog__info">
+                                    <h4>Двухсторонний окны</h4>
+                                    <ul>
+                                        <li>- по доступным ценам</li>
+                                        <li>- красивый</li>
+                                    </ul>
+                                    <a href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="catalog__body">
+                                <div class="catalog__image">
+                                    <img src="images/catalog6.png" alt="">
+                                </div>
+                                <div class="catalog__info">
+                                    <h4>Двухсторонний окны</h4>
+                                    <ul>
+                                        <li>- по доступным ценам</li>
+                                        <li>- красивый</li>
+                                    </ul>
+                                    <a href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="catalog__body">
+                                <div class="catalog__image">
+                                    <img src="images/catalog7.png" alt="">
+                                </div>
+                                <div class="catalog__info">
+                                    <h4>Двухсторонний окны</h4>
+                                    <ul>
+                                        <li>- по доступным ценам</li>
+                                        <li>- красивый</li>
+                                    </ul>
+                                    <a href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="free section">
+        <div class="container">
+            <div class="free__wrapper">
+                <div class="free__left">
+                    <div class="free__image img">
+                        <img src="images/free.jpg" alt="">
+                    </div>
+                    <div class="free__image__bottom">
+                        <ul>
+                            <li><i class="icon-check"></i>Жилые помещения</li>
+                            <li><i class="icon-check"></i>Жилые помещения</li>
+                            <li><i class="icon-check"></i>Обеденные центры</li>
+                            <li><i class="icon-check"></i>Во всех провинциях</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="free__right">
+                    <div class="free__info">
+                        <h3>
+                            <span>Бесплатная</span> консультация и выезд специалиста
+                        </h3>
+                        <p>Наш менеджер перезвонит в течение дня для уточнения деталей</p>
+                    </div>
+                    <div class="free__info__bottom">
+                        <a href="#">
+                            <p>Номер телефона</p>
+                            <div class="icon"> <i class="icon-right"></i></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="branch section">
+        <div class="container">
+            <div class="branch__wrapper">
+                <div class="branch__left title">
+                    <h2>Бренды с которым мы работаем</h2>
+                </div>
+                <div class="branch__right">
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/samsung.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/apple.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/artel.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/benkam.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/nbu.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/mediapark.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/ipoteka.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/kfc.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#" class="branch__image">
+                        <div class="branch__image__wrap">
+                            <img src="images/mi.png" alt="">
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <div class="container">
+            <div class="map__wrapper">
+                <div class="map__left">
+                    <div class="map__left__info">
+                        <h5>ул. Узбекистон Овози 21</h5>
+                        <p>Ташкент, Узбекистан</p>
+                    </div>
+                    <div class="map__left__info">
+                        <h5>ул. Узбекистон Овози 21</h5>
+                        <p>Ташкент, Узбекистан</p>
+                    </div>
+                </div>
+                <div class="map__right">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="#" class="footer__logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <div class="footer__info">
+                    <p>При перепечатке любых материалов ссылка на веб-сайт обязательна</p>
+                    <p>2021. Все права защищены. </p>
+                </div>
+                <div class="footer__more">
+                    <span>000.REHAU. MCHJ</span>
+                    <small>akmal_designer</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <script src="libs/bootstrap-4.6.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
